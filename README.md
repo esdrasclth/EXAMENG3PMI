@@ -8,4 +8,3 @@
 - Dennis Antonio Landero Ramos (201910070086)
 - Jafeth Donatilo Rápalo Rivera (202120030040)
 - Delcer Oviel Hernández (201510050050)
-- Elvis José Riera (201210010484)
