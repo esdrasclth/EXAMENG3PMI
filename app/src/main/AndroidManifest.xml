@@ -57,7 +57,7 @@
             android:value="AIzaSyDmsOQfvKaL-XAA5TBuAk3LipiTcA7Q51Y" />
 
         <activity
-            android:name="com.example.EXAMENG3PMI.Ubicacion"
+            android:name="com.example.EXAMENG3PMI.UbicacionActivity"
             android:exported="false" />
         <activity
             android:name="com.example.EXAMENG3PMI.ActivityEditar"

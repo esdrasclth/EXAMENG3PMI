@@ -34,7 +34,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.EXAMENG3PMI.transacciones.Transacciones;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -296,8 +295,8 @@ public class ActivityEditar extends AppCompatActivity implements LocationListene
     }
 
     public void limpiar() {
-        nombre.setText(Transacciones.Empty);
-        telefono.setText(Transacciones.Empty);
+        nombre.setText("");
+        telefono.setText("");
         picture.setImageResource(R.drawable.porfile);
     }
 }

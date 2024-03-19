@@ -23,6 +23,7 @@ public class ActivityView extends AppCompatActivity {
     ImageView picture;
     Button verFoto, editar, eliminar, contactos, mapa;
     EditText nombre, telefono, lat, lon;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -99,7 +100,7 @@ public class ActivityView extends AppCompatActivity {
         mapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Ubicacion.class);
+                Intent intent = new Intent(getApplicationContext(), UbicacionActivity.class);
                 intent.putExtra("nombre", nombreContacto);
                 intent.putExtra("latitud", latitud);
                 intent.putExtra("longitud", longitud);

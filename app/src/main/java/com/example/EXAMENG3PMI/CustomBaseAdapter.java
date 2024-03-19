@@ -61,12 +61,11 @@ public class CustomBaseAdapter extends BaseAdapter {
         Contactos contacto = contactos.get(position);
         Bitmap b = BitmapFactory.decodeFile(contacto.getImagen());
         imagenImageView.setImageBitmap(b);
-     //  imagenImageView.setImageResource(contacto.getImagen());
+
         nombreTextView.setText(contacto.getNombre());
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Pasar la información del producto seleccionado a la actividad de BiblioActivity
                 Intent intent = new Intent(context, ActivityView.class);
                 intent.putExtra("id", contacto.getId());
                 intent.putExtra("nombre",contacto.getNombre());
